@@ -1,0 +1,14 @@
+# Profil dla szynki domowej
+
+# Krok 1: Osuszanie
+# Nazwa;T.zadana;T.mięsa_target;CzasMin;Moc;DymPWM;TrybWent;WentON_s;WentOFF_s;CzekajNaMięso
+Osuszanie;60.0;0.0;90;1;0;1;0;0;0
+
+# Krok 2: Wędzenie I - Dymienie
+Wedzenie_I;70.0;0.0;120;2;120;2;15;45;0
+
+# Krok 3: Wędzenie II - Parzenie (bez dymu, do temp. wewn. mięsa)
+Parzenie;85.0;68.0;60;3;0;1;0;0;1
+
+# Krok 4: Wędzenie III - Dopiekanie (dla skórki, bez dymu)
+Dopiekanie;95.0;72.0;30;3;0;1;0;0;1
