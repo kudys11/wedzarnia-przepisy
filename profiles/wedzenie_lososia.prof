@@ -1,0 +1,17 @@
+# To jest przykładowy przepis na wędzenie łososia
+# Linie zaczynające się od # są ignorowane przez program.
+
+# Krok 1: Suszenie
+Suszenie;30.0;0;120;1;0;1;0;0;0
+
+# Krok 2: Wędzenie (faza 1)
+Wedzenie_1;60.0;0;180;2;120;2;10;60;0
+
+# Krok 3: Wędzenie (faza 2) - wyższa temperatura
+Wedzenie_2;70.0;0;120;3;180;1;0;0;0
+
+# Krok 4: Pieczenie/parzenie (dla temperatury mięsa)
+Parzenie;80.0;65.0;60;3;0;1;0;0;1
+
+# Krok 5: Studzenie (nie grzejemy, tylko wentylujemy)
+Studzenie;20.0;0;30;0;0;1;0;0;0

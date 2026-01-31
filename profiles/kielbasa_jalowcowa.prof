@@ -1,0 +1,13 @@
+# Profil dla kielbasy jalowcowej
+
+# Etap 1: Suszenie (niskie temp, duzy przeplyw)
+Suszenie;50.0;0.0;60;1;0;1;0;0;0
+
+# Etap 2: Dymienie I (z dymem, podnoszenie temp)
+Dymienie_I;65.0;0.0;180;2;180;2;10;30;0
+
+# Etap 3: Dymienie II (stabilizacja)
+Dymienie_II;70.0;0.0;90;2;150;2;10;30;0
+
+# Etap 4: Parzenie (bez dymu, finalna temp wewn.)
+Parzenie;80.0;75.0;45;3;0;1;0;0;1
